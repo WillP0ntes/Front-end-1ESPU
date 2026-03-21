@@ -1,0 +1,22 @@
+a {
+    font-family: Roboto, Calibri, sams-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: darkred;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+p {
+    font-family: Roboto, Calibri, sams-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: darkgreen;
+}
+
+h2 {
+    text-shadow: 2px 2px 3px rgb(0, 89, 255);
+}
