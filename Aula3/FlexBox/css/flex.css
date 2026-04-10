@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+}
+
+#modelo-1 {
+    flex-direction: column;
+
+    /* FLEX-START - Valor padrão */
+    justify-content: flex-start;
+}
+
+#modelo-2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#modelo-3 {
+    flex-direction: row-reverse;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+}
+
+#modelo-4 {
+    /* BETWEEN - Espaçamento baseado nas extermidades */
+    /* justify-content: space-between; */
+    
+    /* AROUND - Espaçamento central é maior que das extremidades */
+    /* justify-content: space-around; */
+
+    /* EVENLY - Espaçamento */
+    justify-content: space-between;
+}
+
+#modelo-5 {
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
