@@ -1,0 +1,42 @@
+input:focus {
+    outline: none;
+    background-color: #793f1d36;
+}
+
+input:valid {
+    border-color: #793f1d;
+}
+
+input:invalid {
+    border-color: #ff0000;
+}
+
+::placeholder {
+    color: #793f1d;
+}
+
+input[type="submit"]:hover {
+    background-color: #94150a;
+}
+
+.modelo {
+    p::first-letter {
+        font-family: 'Lavishly yours';
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    p::selection {
+        color: #d81806;
+        background-color: #e6dbcf;
+    }
+}
+
+li:not(.top3){
+    color:rgb(83, 83, 83);
+}
+
+li:first-child {
+    color:rgb(31, 153, 0);
+}
